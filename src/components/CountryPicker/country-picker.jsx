@@ -11,7 +11,7 @@ const CountyPicker = ({ handleCountryChange }) => {
       setFetchedCountries(await fetchCountries());
     };
     fetchAPI();
-  }, setFetchedCountries);
+  }, []);
   return (
     <FormControl className={styles.formControl}>
       <NativeSelect
