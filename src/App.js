@@ -21,7 +21,7 @@ class App extends React.Component {
   };
   render() {
     const { data, country } = this.state;
-    console.log("data", data);
+    // console.log("data", data);
     return (
       <div className={style.container}>
         <Card data={data} />
